@@ -1,0 +1,46 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": { "type": "Point", "coordinates": [106.8456, -6.2088] },
+			"properties": {
+				"name": "Jakarta",
+				"id": 1,
+				"link": "<a href='https://example.com/jakarta' target='_blank'>Visit Website</a>"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[106.8, -6.25],
+						[106.9, -6.25],
+						[106.9, -6.15],
+						[106.8, -6.15],
+						[106.8, -6.25]
+					]
+				]
+			},
+			"properties": { "name": "Area A" }
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [106.84594565202065, -6.12341777082763]
+			},
+			"properties": {
+				"name": "Pushidrosal office",
+				"id": 1,
+				"link": "<a href='https://www.pushidrosal.id' target='_blank'>Official Site</a>",
+				"icon": "/custom-icon.png",
+				"iconSize": [32, 32],
+				"iconAnchor": [16, 32],
+				"popupAnchor": [0, -32]
+			}
+		}
+	]
+}
